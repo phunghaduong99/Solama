@@ -50,11 +50,11 @@ int docfile( int num)
 	fp=fopen("chuoiLaMa.txt", "r");
 	n = fseek(fp,0L, SEEK_END);
 	length = ftell(fp);
-    fseek(fp, (length - num), SEEK_SET);
-    if(n)
+    	fseek(fp, (length - num), SEEK_SET);
+    	if(n)
 	printf("FAILED");
 	else if(fgets(s, 2, fp) == NULL) 
-       printf("FAILED");
+    	printf("FAILED");
         
     /*Doi ki tu La Ma sang chu so A Rap.*/   
    	int m;
