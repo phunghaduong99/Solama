@@ -94,7 +94,7 @@ int docfile( int num)
 	
 	if(dodaichuoi(chuoilama) >1 )
 	{
-		do
+			do
 			{
 			if (docfile(i) > docfile(i+1) )
 				{
@@ -133,7 +133,7 @@ int docfile( int num)
 	else if (dodaichuoi(chuoilama) == 1 ) 
 	a = a + docfile(1);
 	
-	printf("%d", a) ;
+	printf("So A Rap sau khi chuyen: %d", a) ;
 	
 	return 0;	        
 }
